@@ -1,0 +1,1000 @@
+ 1005  cd ..
+ 1006  java -jar JavaSoundDemo.jar 
+ 1007  subl *.java
+ 1008  cd src/
+ 1009  ls
+ 1010  subl *.java
+ 1011  exit
+ 1012  npm --version
+ 1013  history
+ 1014  exit
+ 1015  history > ht.txt
+ 1016  subl ht.txt 
+ 1017  exit
+ 1018  cd
+ 1019  cd 9noSemestre/AppsWeb/
+ 1020  ls
+ 1021  cd 2
+ 1022  cd 2Parcial/
+ 1023  ls
+ 1024  cd CoffeeShop/
+ 1025  ls
+ 1026  npm start
+ 1027  exit
+ 1028  cd
+ 1029  ./redes.sh 
+ 1030  ./redes.sh apache start
+ 1031  ./redes.sh apache status
+ 1032  ./redes.sh axigen stop
+ 1033  ./redes.sh apache start
+ 1034  ./redes.sh apache restart
+ 1035  /etc/init.d/apache start
+ 1036  /etc/init.d/apache2 start
+ 1037  journalctl -xe
+ 1038  sudo su
+ 1039  cd
+ 1040  cd Projects/
+ 1041  ls
+ 1042  mkDir Arquitectura
+ 1043  mkdir Arquitectura
+ 1044  cd Arquitectura/
+ 1045  ls
+ 1046  cd ..
+ 1047  rm Arquitectura/
+ 1048  rm -rf Arquitectura/
+ 1049  cd 
+ 1050  cd 9noSemestre
+ 1051  ls
+ 1052  cd DisArqSW/
+ 1053  ls
+ 1054  mkdir Servicios
+ 1055  cd Servicios/
+ 1056  ls
+ 1057  npm install -g swagger
+ 1058  sudo npm install -g swagger
+ 1059  swagger -version
+ 1060  swagger --version
+ 1061  swagger project create aerobot
+ 1062  ls
+ 1063  cd aerobot/
+ 1064  ls
+ 1065  lsblk
+ 1066  lsblk -a
+ 1067  df
+ 1068  df -h
+ 1069  du
+ 1070  du -h
+ 1071  cd Projects/
+ 1072  ls
+ 1073  cd
+ 1074  cd 9noSemestre/AppsWeb/2Parcial/
+ 1075  ls
+ 1076  mkdir P2Lab1
+ 1077  cd P2Lab1/
+ 1078  ls
+ 1079  echo "Hello there..." >> README.md
+ 1080  git init
+ 1081  git add README.md 
+ 1082  git commit -m "First commit"
+ 1083  git remote add origin https://github.com/SpeedStream/Lab1_P2.git
+ 1084  git push -u origin master
+ 1085  ls
+ 1086  npm init
+ 1087  ls
+ 1088  test
+ 1089  ls
+ 1090  touch server.js
+ 1091  npm install graphql express express-graphql —save
+ 1092  npm install graphql express express-graphql --save
+ 1093  ls
+ 1094  nano server.js 
+ 1095  node server.js 
+ 1096  node server2.js 
+ 1097  git --version
+ 1098  git
+ 1099  git show
+ 1100  git status
+ 1101  git status -v
+ 1102  git add .
+ 1103  git commit -m "Final version"
+ 1104  git push -u origin master
+ 1105  cd ..
+ 1106  mkDir P2Lab2 && cd P2Lab2
+ 1107  mkdir P2Lab2 && cd P2Lab2
+ 1108  git init
+ 1109  git 
+ 1110  git --help
+ 1111  man git
+ 1112  git remote add origin master https://github.com/SpeedStream/Lab2_P2.git
+ 1113  git origin master https://github.com/SpeedStream/Lab2_P2.git
+ 1114  git remote add origin https://github.com/SpeedStream/Lab2_P2.git
+ 1115  git remote -b
+ 1116  git remote -v
+ 1117  git push
+ 1118  git
+ 1119  git fetch
+ 1120  ls
+ 1121  git branch
+ 1122  bit checkout master
+ 1123  git checkout master
+ 1124  git pull
+ 1125  ls
+ 1126  unzip graphqlApiNodeDemo-master.zip 
+ 1127  ls
+ 1128  cd graphqlApiNodeDemo-master
+ 1129  ls
+ 1130  rm README.md 
+ 1131  rm graphql-playground.png 
+ 1132  ls
+ 1133  mv * ~/9noSemestre/AppsWeb/2Parcial/P2Lab2/
+ 1134  ls
+ 1135  cd ..
+ 1136  ls
+ 1137  rm -rf graphqlApiNodeDemo-master.*
+ 1138  ls
+ 1139  npm run sequelize-skeleton
+ 1140  npm init -y
+ 1141  npm i body-parser express mysql2 sequelize apollo-server-express apollo-boost graphql-tag graphql --save
+ 1142  npm i nodemon sequelize-cli babel-cli babel-preset-env babel-preset-stage-3 webpack webpack-cli faker lodash.times lodash.random --save-dev
+ 1143  npm run sequelize-skeleton
+ 1144  npm run sequelize-skeleton --force
+ 1145  mv models/index.js models/index1.js 
+ 1146  npm run sequelize-skeleton --force
+ 1147  cd models/
+ 1148  ls
+ 1149  rm index1.js 
+ 1150  ls
+ 1151  cd ..
+ 1152  ls
+ 1153  npm run build
+ 1154  ls
+ 1155  npm run build
+ 1156  npm run buildnpm 
+ 1157  npm run start
+ 1158  npm run sequelize-skeleton
+ 1159  npm run sequelize-skeleton --force
+ 1160  mv models/ models1/
+ 1161  ls
+ 1162  npm run sequelize-skeleton --force
+ 1163  rm models
+ 1164  rm -rf models
+ 1165  rm config/config.json 
+ 1166  npm run sequelize-skeleton --force
+ 1167  npm run start
+ 1168  sudo npm run start
+ 1169  sudo npm run start
+ 1170  mv server.js server.mjs 
+ 1171  sudo npm run start
+ 1172  ls
+ 1173  mv server.mjs server.js 
+ 1174  nano package.json 
+ 1175  subl package.json 
+ 1176  npm run sequelize-skeleton
+ 1177  ls models
+ 1178  ls
+ 1179  ls models1
+ 1180  cat models1/author.js 
+ 1181  rm -rf models
+ 1182  mb models1/ models1/
+ 1183  mv models1/ models1/
+ 1184  mv models1/ models/
+ 1185  ls
+ 1186  rm models/index.js 
+ 1187  ls
+ 1188  rm config/config.json 
+ 1189  npm run sequelize-skeleton
+ 1190  nano config/config.json 
+ 1191  ls
+ 1192  npm run start
+ 1193  git commit -m "Final push"
+ 1194  git add .
+ 1195  cd
+ 1196  ls
+ 1197  ./redes.sh 
+ 1198  ./redes axigen start
+ 1199  ./redes.sh axigen start
+ 1200  sudo su
+ 1201  cd P
+ 1202  cd Projects/
+ 1203  ls
+ 1204  cd AsesoraTec/
+ 1205  ls
+ 1206  git
+ 1207  git push
+ 1208  git fetch
+ 1209  ls
+ 1210  cd ..
+ 1211  cd AsesoraTec/
+ 1212  ls
+ 1213  git
+ 1214  git pull
+ 1215  git branch
+ 1216  git checkout remote branch develop
+ 1217  git checkout remote branch
+ 1218  git pull
+ 1219  git branch
+ 1220  git branch master
+ 1221  git checkout master
+ 1222  git pull
+ 1223  git fetch origin
+ 1224  ls
+ 1225  git checkout develop
+ 1226  git pull
+ 1227  ls
+ 1228  cat Database.sql 
+ 1229  git fetch --all
+ 1230  ls
+ 1231  git pull
+ 1232  git fetch --all
+ 1233  git checkout
+ 1234  git version
+ 1235  git
+ 1236  git branch
+ 1237  git fetch
+ 1238  git checkout develop
+ 1239  git pull
+ 1240  git pull --force
+ 1241  git reset --hard origin/master
+ 1242  ls
+ 1243  git pull --force
+ 1244  ls
+ 1245  cd public/
+ 1246  ls
+ 1247  subl index.php 
+ 1248  ls
+ 1249  cd ..
+ 1250  ls
+ 1251  cd app/
+ 1252  ls
+ 1253  cd vistas/
+ 1254  ls
+ 1255  cd paginas/
+ 1256  ls
+ 1257  cat inicio.php 
+ 1258  cd
+ 1259  cd ṔR
+ 1260  cd Projects/AsesoraTec/
+ 1261  ls
+ 1262  apache --version
+ 1263  ls
+ 1264  exit
+ 1265  cd
+ 1266  cd Projects/PianoSimon/
+ 1267  ls
+ 1268  ls -la
+ 1269  make clean
+ 1270  ls
+ 1271  sudo su
+ 1272  exit
+ 1273  cd ..
+ 1274  ls
+ 1275  cd P2Lab2
+ 1276  lls
+ 1277  ls
+ 1278  ls -la
+ 1279  cat README.md 
+ 1280  cat server.js |
+ 1281  cat server.js
+ 1282  node server.js 
+ 1283  node server.js --latest
+ 1284  npm install graphql express express-graphql --save --latest
+ 1285  node server.js 
+ 1286  cd ..
+ 1287  cd P2Lab1
+ 1288  ls
+ 1289  cat README.md 
+ 1290  ls
+ 1291  node server
+ 1292  node server.js 
+ 1293  EXIT
+ 1294  exit
+ 1295  cd
+ 1296  cd Descargas/
+ 1297  ls
+ 1298  tar -gz eclipse-inst-linux64.tar.gz 
+ 1299  tar -tgz eclipse-inst-linux64.tar.gz 
+ 1300  tar -gzf eclipse-inst-linux64.tar.gz 
+ 1301  tar -fgz eclipse-inst-linux64.tar.gz 
+ 1302  tar -zxvf eclipse-inst-linux64.tar.gz 
+ 1303  cd e
+ 1304  ls
+ 1305  cd eclipse-inst
+ 1306  cd eclipse-installer/
+ 1307  ls
+ 1308  ./eclipse-inst 
+ 1309  sudo ./eclipse-inst
+ 1310  history
+ 1311  exit
+ 1312  cd
+ 1313  cd 9noSemestre/
+ 1314  ls
+ 1315  cd
+ 1316  cd Projects/
+ 1317  ls
+ 1318  mv AsesoraTec/ EduApp/
+ 1319  ls
+ 1320  cd EduApp/
+ 1321  ls
+ 1322  cat Database.sql 
+ 1323  ls
+ 1324  exit
+ 1325  sudo su
+ 1326  ls
+ 1327  exit
+ 1328  cd
+ 1329  cd Projects/
+ 1330  ls
+ 1331  cd FinalAppsWeb/
+ 1332  ls
+ 1333  node server.js 
+ 1334  history
+ 1335  ng serve
+ 1336  cd
+ 1337  cd 9noSemestre/AppsWeb/
+ 1338  ls
+ 1339  cd 2
+ 1340  cd 2Parcial/
+ 1341  ls
+ 1342  cd P2Lab2
+ 1343  ls
+ 1344  git add .
+ 1345  git
+ 1346  git checkout
+ 1347  git remote -v
+ 1348  git add . -v
+ 1349  ng serve
+ 1350  git add . -v
+ 1351  git add .
+ 1352  git commit -m "Lab 2
+ 1353  "
+ 1354  git commit -m "Lab 2"
+ 1355  git add .
+ 1356  git commit -m "Lab"
+ 1357  git commit -m "Lab 2"
+ 1358  git push
+ 1359  cd
+ 1360  find
+ 1361  find packet*
+ 1362  find packet
+ 1363  cd 9noSemestre/Redes2/
+ 1364  sl
+ 1365  ls
+ 1366  LS
+ 1367  ls
+ 1368  unzip Cisco\ Packet\ Tracer\ 6.1.1\ for\ Windows\ \(no\ tutorials\)\ -\ Student\ version.rar 
+ 1369  mc Cisco\ Packet\ Tracer\ 6.1.1\ for\ Windows\ \(no\ tutorials\)\ -\ Student\ version.rar PacketTracer.rar
+ 1370  mv Cisco\ Packet\ Tracer\ 6.1.1\ for\ Windows\ \(no\ tutorials\)\ -\ Student\ version.rar PacketTracer.rar
+ 1371  ls
+ 1372  unzip PacketTracer.rar 
+ 1373  ls
+ 1374  which PacketTracer7
+ 1375  which Packet Tracer 7.1
+ 1376  find Packet Tracer 7.1
+ 1377  sudo su
+ 1378  ls
+ 1379  history
+ 1380  cd OtherStuff/
+ 1381  tar -zxvf PacketTracer.tar.gz 
+ 1382  ls
+ 1383  sudo tar -zxvf PacketTracer.tar.gz 
+ 1384  ls
+ 1385  ./install 
+ 1386  sudo reboot
+ 1387  exit
+ 1388  cd ..
+ 1389  cd Redes2/OtherStuff/
+ 1390  ls
+ 1391  cd ..
+ 1392  cd OtherStuff/
+ 1393  cd b
+ 1394  cd bin/
+ 1395  ls
+ 1396  ./PacketTracer7 
+ 1397  sudo ./PacketTracer7 
+ 1398  cd ..
+ 1399  sudo ./install 
+ 1400  /opt/pt/packettracer 
+ 1401  la
+ 1402  sudo /opt/pt/packettracer 
+ 1403  sys
+ 1404  exi
+ 1405  exit
+ 1406  sudo su
+ 1407  exit
+ 1408  cd
+ 1409  sudo su
+ 1410  exit
+ 1411  cd ..
+ 1412  ls
+ 1413  cd ..
+ 1414  ls
+ 1415  cd 9noSemestre/
+ 1416  ls
+ 1417  cd AppsWeb/
+ 1418  ls
+ 1419  cd 2
+ 1420  cd 2Parcial/
+ 1421  ls
+ 1422  cd ..
+ 1423  cd 1Parcial/
+ 1424  ls
+ 1425  cd game-api-demo
+ 1426  ls
+ 1427  cd ..
+ 1428  ls
+ 1429  cd 2Parcial/
+ 1430  ls
+ 1431  cd P2Lab2
+ 1432  ls
+ 1433  cd
+ 1434  /opt/pt/bin/PacketTracer7 
+ 1435  ./opt/pt/bin/PacketTracer7 
+ 1436  ./packettracer
+ 1437  /opt/pt/./packettracer 
+ 1438  sudo /opt/pt/./packettracer 
+ 1439  cd /opt/pt/bin
+ 1440  ldd Packettracer7
+ 1441  cd
+ 1442  sudo cp /opt/pt/lib/libname /usr/lib/x86_64-linux-gnu
+ 1443  sudo dpkg -i libicu52_52.1-3ubuntu0.7_amd64.deb
+ 1444  wget http://security.ubuntu.com/ubuntu/pool/main/i/icu/libicu52_52.1-3ubuntu0.7_amd64.deb
+ 1445  wget http://launchpadlibrarian.net/341176988/libicu52_52.1-3ubuntu0.7_amd64.deb
+ 1446  sudo dpkg -i libicu52_52.1-3ubuntu0.7_amd64.deb
+ 1447  sudo updatedb; locate libicui18n
+ 1448  which libicui18n.so.52cd 
+ 1449  cd /usr/lib/x86_64-linux-gnu/
+ 1450  ls libicui18n.so.52
+ 1451  cd7
+ 1452  cd
+ 1453  sudo /opt/pt/./packettracer 
+ 1454  /opt/pt/./packettracer 
+ 1455  sudo apt-get
+ 1456  sudo apt-get check packettracer
+ 1457  sudo apt-get install packettracer
+ 1458  sudo rm -r /opt/pt
+ 1459  sudo rm /usr/share/applications/pt6.desktop
+ 1460  sudo rm /usr/share/icons/hicolor/48x48/apps/pt6.png
+ 1461  cd Descargas/
+ 1462  ls
+ 1463  rm everything*
+ 1464  ls
+ 1465  cd P
+ 1466  cd PacketTracer/
+ 1467  ls
+ 1468  sudo ./install 
+ 1469  sudo reboot
+ 1470  cd
+ 1471  cd Projects/EduApp/
+ 1472  ls
+ 1473  git branch
+ 1474  git compare develop master
+ 1475  ls
+ 1476  cat Database.sql 
+ 1477  ls
+ 1478  cd app/
+ 1479  ls
+ 1480  cd modelos/
+ 1481  ls
+ 1482  cd ..
+ 1483  cd con
+ 1484  cd config/
+ 1485  ls
+ 1486  cd ..
+ 1487  ls
+ 1488  cat Database.sql 
+ 1489  git diff 
+ 1490  git diff Database.sql 
+ 1491  ls
+ 1492  git diff FillDatabase.
+ 1493  git diff FillDatabase
+ 1494  git diff FillDatabase.sql 
+ 1495  ls
+ 1496  git pull
+ 1497  ls
+ 1498  git branch Data
+ 1499  git branch
+ 1500  git checkout Data
+ 1501  ls
+ 1502  git add Database.sql FillDatabase.sql 
+ 1503  git commit -m "Extensión de la DB y registros iniciales"
+ 1504  git delete branch Data
+ 1505  git branch delete Data
+ 1506  git branch
+ 1507  git branch -D Data
+ 1508  git branch -D delete
+ 1509  git checkout develop
+ 1510  git branch -D Data
+ 1511  ls
+ 1512  cd src/
+ 1513  ls
+ 1514  cd app/
+ 1515  ls
+ 1516  cd ..
+ 1517  ls
+ 1518  mkdir Database
+ 1519  ls
+ 1520  cd Database/
+ 1521  ls
+ 1522  nano Database.sql
+ 1523  cat DA
+ 1524  cat Database.sql 
+ 1525  ls
+ 1526  nano Datafill.sql
+ 1527  ls
+ 1528  cat Datafill.sql 
+ 1529  ls
+ 1530  cd ..
+ 1531  ls
+ 1532  git add Database/
+ 1533  git commit -m "Anexión de nuevas tablas y registros para pruebas"
+ 1534  git branch
+ 1535  git push -u origin develop
+ 1536  cd ..
+ 1537  cd EduApp/
+ 1538  ls
+ 1539  cd ..
+ 1540  cd FinalAppsWeb/
+ 1541  ls
+ 1542  cat ht.txt 
+ 1543  ls
+ 1544  rm ht.txt 
+ 1545  ng serve
+ 1546  sudo ng serve
+ 1547  sudo su
+ 1548  cd
+ 1549  cd PR
+ 1550  cd Projects/
+ 1551  ls
+ 1552  cd FinalAppsWeb/
+ 1553  ls
+ 1554  ng serve
+ 1555  sudo ng serve
+ 1556  sudo reboot
+ 1557  ls
+ 1558  cd ..
+ 1559  ls
+ 1560  cd
+ 1561  cd 9noSemestre/
+ 1562  ls
+ 1563  cd AppsWeb/
+ 1564  ls
+ 1565  cd 2
+ 1566  ls
+ 1567  cd ..
+ 1568  cd AppsWeb/
+ 1569  ls
+ 1570  cd 2
+ 1571  cd 2Parcial/
+ 1572  ls
+ 1573  cd kubeet-landing
+ 1574  ls
+ 1575  cd src/app/shared/services/
+ 1576  ls
+ 1577  cat user.service.ts 
+ 1578  exit
+ 1579  cd Escritorio/Isos/
+ 1580  ls
+ 1581  ls -a
+ 1582  ls -la
+ 1583  cd
+ 1584  sudo su
+ 1585  ls
+ 1586  chown
+ 1587  chown --help
+ 1588  ls -r
+ 1589  ls --help
+ 1590  ls -R
+ 1591  ls
+ 1592  ls Pods -R
+ 1593  exit
+ 1594  cd
+ 1595  cd Descargas/
+ 1596  ls
+ 1597  exit
+ 1598  cd
+ 1599  cd Projects/EduappArquitectura/
+ 1600  ls
+ 1601  cd ..
+ 1602  ls
+ 1603  cd rnf/
+ 1604  ls
+ 1605  cd react-native-firebase-starter/
+ 1606  ls
+ 1607  cd i
+ 1608  cd ios/
+ 1609  ls
+ 1610  cd Pods/
+ 1611  ls
+ 1612  history
+ 1613  sudo history
+ 1614  sudo su
+ 1615  pod install
+ 1616  cd ..
+ 1617  pod install
+ 1618  sudo mkdir Pods/BoringSSL-GRPC
+ 1619  ls Pods/
+ 1620  pod install
+ 1621  sudo mkdir Pods/BoringSSL-GRPC/0.0.2-2a230
+ 1622  pod install
+ 1623  sudo mkdir Pods/BoringSSL-GRPC/0.0.2-2a230/rypto
+ 1624  sudo mkdir Pods/BoringSSL-GRPC/0.0.2-2a230/crypto
+ 1625  rm -rf Pods/BoringSSL-GRPC/0.0.2-2a230/rypto/
+ 1626  sudo rm -rf Pods/BoringSSL-GRPC/0.0.2-2a230/rypto/
+ 1627  pod install
+ 1628  sudo mkdir Pods/BoringSSL-GRPC/0.0.2-2a230/crypto/rand_extra
+ 1629  pod install
+ 1630  cd ..
+ 1631  sudo chmod -R 777 /ios
+ 1632  sudo chmod -R 777 ios
+ 1633  pod install
+ 1634  cd ios/
+ 1635  pod installcd ..
+ 1636  cd ..
+ 1637  npm run rename
+ 1638  sudo npm run rename
+ 1639  cd ios/
+ 1640  pod init
+ 1641  pod 'Firebase/Core'
+ 1642  ls
+ 1643  nano Podfile
+ 1644  pod install
+ 1645  ls
+ 1646  nano EduApp.xcworkspace/
+ 1647  ls
+ 1648  cd EduApp.xcworkspace/
+ 1649  ls
+ 1650  cat contents.xcworkspacedata 
+ 1651  cd ..
+ 1652  ls
+ 1653  cd ..
+ 1654  cat * | grep 'import UIKit'
+ 1655  cat  | grep 'import UIKit'
+ 1656  cd ios/
+ 1657  cat * | grep 'import UIKit'
+ 1658  cd ..
+ 1659  ls
+ 1660  cat index.js 
+ 1661  cd ..
+ 1662  cd react-native-firebase-starter/
+ 1663  cat App.js 
+ 1664  ls
+ 1665  cd app.json 
+ 1666  cat app.json 
+ 1667  cat package
+ 1668  cat package.json 
+ 1669  cd i
+ 1670  cd ios/
+ 1671  ls
+ 1672  cd EduApp
+ 1673  ls
+ 1674  cat AppDelegate.
+ 1675  cat AppDelegate..h
+ 1676  cat AppDelegate.h
+ 1677  cat main.m 
+ 1678  ls
+ 1679  cat AppDelegate.h
+ 1680  cat AppDelegate.m
+ 1681  cat * | grep 'import UIKit'
+ 1682  grep 'import UIKit'
+ 1683  ls
+ 1684  cat AppDelegate.*
+ 1685  ls
+ 1686  cd ..
+ 1687  ls
+ 1688  cd EduApp.xcodeproj/
+ 1689  ls
+ 1690  cd ..
+ 1691  cd EduApp.xcworkspace/
+ 1692  ls
+ 1693  cat contents.xcworkspacedata 
+ 1694  cd ..
+ 1695  cat Podfile
+ 1696  ls
+ 1697  cat GoogleService-Info.plist 
+ 1698  cat Pod
+ 1699  cat Pods
+ 1700  cd Pods
+ 1701  ls
+ 1702  cd ..
+ 1703  ls
+ 1704  cd EduApp
+ 1705  ls
+ 1706  subl *
+ 1707  cd ..
+ 1708  ls
+ 1709  npm run
+ 1710  react-native -run
+ 1711  react-native run 
+ 1712  npm install react-native
+ 1713  npm install -g react-native-cli
+ 1714  sudo npm install -g react-native-cli
+ 1715  react-native run
+ 1716  react-native --help
+ 1717  react-native start
+ 1718  react-native run-ios
+ 1719  react-native run-ios --verbose
+ 1720  sudo react-native run-ios --verbose
+ 1721  ls
+ 1722  cd android/
+ 1723  ls
+ 1724  nano build.gradle 
+ 1725  sudo nano build.gradle 
+ 1726  cd ..
+ 1727  history
+ 1728  ls
+ 1729  cd ..
+ 1730  sudo chmod -R 777 react-native-firebase-starter/
+ 1731  cd react-native-firebase-starter/
+ 1732  ls
+ 1733  cd android/
+ 1734  ls
+ 1735  cat build.gradle 
+ 1736  nano build.gradle 
+ 1737  cd ..
+ 1738  react-native run-android --verbose
+ 1739  which swk
+ 1740  which java
+ 1741  cd ..
+ 1742  mkdir eduAppV2
+ 1743  cd eduAppV2/
+ 1744  ls
+ 1745  npm install -g expo-cli
+ 1746  sudo npm install -g expo-cli
+ 1747  cd ..
+ 1748  ls
+ 1749  cd rnf/react-native-firebase-starter/
+ 1750  ls
+ 1751  find android-sdk
+ 1752  historu
+ 1753  history
+ 1754  expo
+ 1755  expo start
+ 1756  exit
+ 1757  expo start
+ 1758  expo start --lan
+ 1759  npm install --save firebase
+ 1760  touch src/Firebase.js
+ 1761  la
+ 1762  ls
+ 1763  cd src/
+ 1764  ls
+ 1765  nano Firebase.js 
+ 1766  cd ..
+ 1767  npm install --save react-router-dom
+ 1768  npm install --save-dev bootstrap
+ 1769  mkdir src/components
+ 1770  cd src/
+ 1771  ls
+ 1772  cd components/
+ 1773  ls
+ 1774  cat index.js 
+ 1775  cd Header/
+ 1776  ls
+ 1777  cat index.js 
+ 1778  cd ..
+ 1779  ls
+ 1780  cat index.js 
+ 1781  ls
+ 1782  mkdir Database
+ 1783  cd Database/
+ 1784  ls
+ 1785  touch GetCourses.js
+ 1786  touch GetAgenda.js
+ 1787  touch GetPersonalInfo.js
+ 1788  touch GetInfoCourseById.js
+ 1789  touch SaveClass.js
+ 1790  ls
+ 1791  cd ..
+ 1792  history
+ 1793  exit
+ 1794  history
+ 1795  expo start
+ 1796  cd
+ 1797  cd Projects/
+ 1798  ls
+ 1799  cd EduappArquitectura/
+ 1800  ls
+ 1801  git clone https://github.com/Pantuflas/EduApp.git
+ 1802  ls
+ 1803  rm -rf EduApp/
+ 1804  cd ..
+ 1805  ls
+ 1806  cd eduAppV2/
+ 1807  ls
+ 1808  cd ..
+ 1809  cd Edu
+ 1810  cd EduApp/
+ 1811  ls
+ 1812  cd ..
+ 1813  mv eduAppV2/ EduAppArquitectura
+ 1814  cd EduappArquitectura/
+ 1815  ls
+ 1816  cd ..
+ 1817  rm -rf EduappArquitectura/
+ 1818  ls
+ 1819  mv FillDatabase.xlsx EduApp
+ 1820  mv EduApp EduAppIntegrador
+ 1821  ls
+ 1822  cd EduAppIntegrador/
+ 1823  ls
+ 1824  cd ..
+ 1825  cd EduAppArquitectura/
+ 1826  ls
+ 1827  cd ..
+ 1828  git clone https://github.com/Pantuflas/EduApp.git
+ 1829  ls
+ 1830  rm EduAppArquitectura/
+ 1831  ls
+ 1832  rm -rf EduAppArquitectura/
+ 1833  mv EduApp EduAppArquitectura
+ 1834  cd EduAppArquitectura/
+ 1835  ls
+ 1836  npm start
+ 1837  npm install
+ 1838  expo start
+ 1839  sudo expo start
+ 1840  expo start
+ 1841  react-native run-android
+ 1842  lsus
+ 1843  lsusb
+ 1844  echo 'SUBSYSTEM=="usb", ATTR{idVendor}=="22b8", MODE="0666", GROUP="plugdev"' | sudo tee /etc/udev/rules.d/51-android-usb.rules
+ 1845  echo 'SUBSYSTEM=="usb", ATTR{idVendor}=="1bbb", MODE="0666", GROUP="plugdev"' | sudo tee /etc/udev/rules.d/51-android-usb.rules
+ 1846  adb devices
+ 1847  react-native run-adroid
+ 1848  react-native run-android
+ 1849  react-native run-android --verbose
+ 1850  react-native run-android --help
+ 1851  react-native run-android
+ 1852  react-native --help
+ 1853  react-native start
+ 1854  echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
+ 1855  react-native start
+ 1856  sudo reboot
+ 1857  exit
+ 1858  curl
+ 1859  curl -X POST   https://fcm.googleapis.com/fcm/send   -H 'Authorization: key=YOUR-SERVER-KEY'   -H 'Content-Type: application/json'   -d '{ 
+ 1860   "notification": {
+ 1861    "title": "Hello World", 
+ 1862    "body": "This is Message from Admin"
+ 1863   },
+ 1864   "to" : "YOUR-GENERATED-TOKEN"
+ 1865  }'
+ 1866  exit
+ 1867  cd
+ 1868  cd 9noSemestre/AppsWeb/
+ 1869  ls
+ 1870  cd Final/
+ 1871  ls
+ 1872  unzip auth.zip 
+ 1873  ls
+ 1874  mv firebase-authentication-with-angular-7-master/ Auth/
+ 1875  ls
+ 1876  unzip pushNotifications.zip
+ 1877  ls
+ 1878  mv angular-push-notification-master/ pushNotifications
+ 1879  ls
+ 1880  unzip tutorial-angular7-cloud-storage-master.zip 
+ 1881  ls
+ 1882  mv tutorial-angular7-cloud-storage-master cloudStorage
+ 1883  ls
+ 1884  mv Auth/ auth/
+ 1885  ls
+ 1886  cd auth
+ 1887  ls
+ 1888  rm LICENSE README.md
+ 1889  ls
+ 1890  cd e2e/
+ 1891  ls
+ 1892  at tsconfig.e2e.json 
+ 1893  cat tsconfig.e2e.json 
+ 1894  cat *
+ 1895  ls
+ 1896  cd..
+ 1897  ls
+ 1898  cd ..
+ 1899  ls
+ 1900  cd src/
+ 1901  ls
+ 1902  cd ..
+ 1903  ls
+ 1904  ng serve
+ 1905  npm install
+ 1906  ng serve
+ 1907  npm install
+ 1908  ng start
+ 1909  ng serve
+ 1910  cd ..
+ 1911  ls
+ 1912  rm -rf *.zip
+ 1913  ls
+ 1914  cd cloudStorage/
+ 1915  ls
+ 1916  cat README.md 
+ 1917  npm install
+ 1918  npm install firebase @angular/fire --save
+ 1919  ls
+ 1920  ng generate service firebase-storage
+ 1921  ls
+ 1922  cd src/app/
+ 1923  ls
+ 1924  cat app.component.ts 
+ 1925  ng serve
+ 1926  cd ..
+ 1927  ls
+ 1928  cd pushNotifications/
+ 1929  ls
+ 1930  cd ..
+ 1931  cd auth/
+ 1932  ls
+ 1933  ls -la
+ 1934  cd ..
+ 1935  cd cloudStorage/
+ 1936  ls -la
+ 1937  cd .nvmrc 
+ 1938  ls
+ 1939  cat .nvmrc 
+ 1940  rm README.md 
+ 1941  ls
+ 1942  cd ..
+ 1943  ls
+ 1944  cd pushNotifications/
+ 1945  ls
+ 1946  ls -la
+ 1947  rm .gitignore 
+ 1948  ls -la
+ 1949  cat README.md 
+ 1950  ng serve
+ 1951  npm install firebase @angular/fire --save
+ 1952  cat src/manifest.json 
+ 1953  ls
+ 1954  cd src/
+ 1955  ls
+ 1956  cat index.html 
+ 1957  cd ..
+ 1958  cd src/
+ 1959  cat firebase-messaging-sw.js 
+ 1960  ng serve
+ 1961  cd ..
+ 1962  ls
+ 1963  cd ..
+ 1964  mv AppsWeb/ AplicacionesWeb
+ 1965  cd AplicacionesWeb/
+ 1966  ls
+ 1967  cd 1Parcial/
+ 1968  ls
+ 1969  cd ..
+ 1970  cd Final/
+ 1971  git init
+ 1972  echo "AppWebFinalLabs" >> README.md
+ 1973  ls
+ 1974  mv auth/ AuthLogin
+ 1975  mv cloudStorage/ CloudStorage
+ 1976  mv pushNotifications/ PushNotifications
+ 1977  cd AuthLogin/
+ 1978  ls
+ 1979  ls .la
+ 1980  ls -la
+ 1981  cd ..
+ 1982  ls
+ 1983  cd CloudStorage/
+ 1984  ls
+ 1985  ls -la
+ 1986  cd ..
+ 1987  cd PushNotifications/
+ 1988  ls
+ 1989  ls -la
+ 1990  cd ..
+ 1991  ls
+ 1992  git add .
+ 1993  git add . --verbose && git commit -m "Hello world!"
+ 1994  git add . --verbose
+ 1995  git commit -m "Hello world!"
+ 1996  git remote add origin https://github.com/SpeedStream/AppWebFinalLabs.git
+ 1997  git push -u origin master
+ 1998  exit
+ 1999  sudo su
+ 2000  history | grep www
+ 2001  history | grep *.html
+ 2002  history | grep html
+ 2003  history
+ 2004  history | less
