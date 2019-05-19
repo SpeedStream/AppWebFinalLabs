@@ -84,14 +84,24 @@ export class LoginComponent implements OnInit {
 	}
 
 	signInWithGoogle() {
-		this.authService
-			.signInWithGoogle()
+		this.authService.doGoogleLogin()
 			.then((res) => {
+				console.log("authService -> doGoogleLogin");
 				if (res.additionalUserInfo.isNewUser) {
-					this.userService.createUser(res.additionalUserInfo.profile);
+					console.log("authService -> additionalUserInfo.isNewUser");
+					const user = {
+						email: res.user.email,
+						famil_name: res.user.displayName,
+						uid: res.user.uid,
+						verified_email: res.user.emailVerified,
+						phoneNumber: res.user.phoneNumber,
+						picture: res.user.photoURL
+					};
+					console.log("authService -> res.user.email -> " + res.user.email);
+					this.userService.createUser(user);
 				}
 				const returnUrl = this.route.snapshot.queryParamMap.get("returnUrl");
-				location.reload();
+				//location.reload();
 				this.router.navigate(["/"]);
 			})
 			.catch((err) => {
@@ -102,11 +112,22 @@ export class LoginComponent implements OnInit {
 	signInWithFacebook(){
     	this.authService.doFacebookLogin()
     		.then(res => {
+    			console.log("authService -> doFacebookLogin");
     			if (res.additionalUserInfo.isNewUser){
-    				this.userService.createUser(res.additionalUserInfo.profile);
+    				console.log("authService -> additionalUserInfo.isNewUser");
+    				const user = {
+						email: res.user.email,
+						famil_name: res.user.displayName,
+						uid: res.user.uid,
+						verified_email: res.user.emailVerified,
+						phoneNumber: res.user.phoneNumber,
+						picture: res.user.photoURL
+					};
+					console.log("authService -> res.user.email -> " + res.user.email);
+					this.userService.createUser(user);
     			}
     			const returnUrl = this.route.snapshot.queryParamMap.get("returnUrl");
-    			location.reload();
+    			//location.reload();
     			this.router.navigate(["/"]);
 		    })
 		    .catch((err) => {

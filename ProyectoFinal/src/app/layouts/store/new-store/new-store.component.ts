@@ -31,7 +31,7 @@ export class CreateStoreComponent implements OnInit {
 	) {}
 
 	ngOnInit() {
-		console.log("userHasStore -> " + this.storeService.userHasStore(this.authService.getLoggedInUser().emailId));
+		console.log("userHasStore -> " + this.storeService.userHasStore());
 	}
 
 	createStore(storeForm: NgForm){

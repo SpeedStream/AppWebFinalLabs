@@ -27,12 +27,15 @@ export class UserService {
   }
 
   createUser(data: any) {
+    console.log("authService -> userService.createUser -> " + data.email);
+
     data.location = this.location;
     data.createdOn = moment(new Date()).format("X");
     data.isAdmin = false;
     //this.users.push(data);
-    return this.db.collection('clients').add(data);
-
+    var anything = this.db.collection('clients').add(data);
+    console.log("authService -> userService.createUser.anything -> " + anything)
+    return anything;
   }
 
   isAdmin(emailId: string){

@@ -1,48 +1,94 @@
 <br>
 <section class="container">
 
-  <!-- Login form -->
-  <div class="col-sm-12">
-  	<p class="h5 text-center">Crear tienda</p>
-  	<form #createStoreForm="ngForm" (ngSubmit)="createStore(createStoreForm)">	
-	  	<div class="col-sm-6">
-	  		<div class="form-group">
-	  			<label for="storeName">Nombre de tienda</label>
-	  			<input type="text" name="storeName" id="storeName" class="form-control" placeholder="Introduzca nombre de tienda" [(ngModel)]="store.storeName">
-	  		</div>
-	  		<div class="form-group">
-	  			<label for="storeDescription">Descripcion de tienda</label>
-	  			<input type="text" name="storeDescription" id="storeDescription" class="form-control" placeholder="Introduzca una descripcion de tienda" [(ngModel)]="store.storeDescription">
-	  		</div>
-	  		<div class="form-group">
-	  			<label for="storeRFC">RFC</label>
-	  			<input type="text" name="storeRFC" id="storeRFC" class="form-control" placeholder="Introduzca RFC" [(ngModel)]="store.RFC">
-	  		</div>
-	  		<div class="form-group">
-	  			<label for="phoneNumber">Telefono</label>
-	  			<input type="number" name="phoneNumber" id="phoneNumber" class="form-control" placeholder="Introduzca telefono" [(ngModel)]="store.phoneNumber">
-	  		</div>
-	  		<div class="form-group">
-	  			<label for="direccionFisica">Direccion fisica</label>
-	  			<input type="text" name="direccionFisica" id="direccionFisica" class="form-control" placeholder="Introduzca direccion fisica" [(ngModel)]="store.direccionFisica">
-	  		</div>
-	  		<div class="form-group">
-	  			<label for="entidadFiscal">Tipo de entidad</label><br>
-	  			<label class="radio-inline"><input type="radio" name="entidadFiscal" [(ngModel)]="store.entidadFiscal" value="fisica">Fisica</label>     
-	  			<label class="radio-inline"><input type="radio" name="entidadFiscal" [(ngModel)]="store.entidadFiscal" value="moral">Moral</label>
-	  		</div>
-	  		<div class="form-group">
-	  			<label for="nombreFiscal">Nombre fiscal</label>
-	  			<input type="text" name="nombreFiscal" id="nombreFiscal" class="form-control" placeholder="Introduzca nombre fiscal" [(ngModel)]="store.nombreFiscal">
-	  		</div>
-	  		<div class="form-group">
-	  			<label for="createStoreDireccion">Direccion fiscal</label>
-	  			<input type="text" name="direccionFiscal" id="direccionFiscal" class="form-control" placeholder="Introduzca direccion fiscal" [(ngModel)]="store.direccionFiscal">
-	  		</div>
-	  	</div>
-	  	<button type="submit" class="btn btn-primary">Crear tienda</button>
-  	</form>
-  </div>
+	<div class="col-sm-12">
+		<section class="container" *ngIf="!storeService.userHasStore()">
+			<p class="h5 text-center">Crear tienda</p>
+			<form #createStoreForm="ngForm" (ngSubmit)="createStore(createStoreForm)">	
+				<div class="col-sm-6">
+					<div class="form-group">
+						<label for="storeName">Nombre de tienda</label>
+						<input type="text" name="storeName" id="storeName" class="form-control" placeholder="Introduzca nombre de tienda" [(ngModel)]="store.storeName">
+					</div>
+					<div class="form-group">
+						<label for="storeDescription">Descripcion de tienda</label>
+						<input type="text" name="storeDescription" id="storeDescription" class="form-control" placeholder="Introduzca una descripcion de tienda" [(ngModel)]="store.storeDescription">
+					</div>
+					<div class="form-group">
+						<label for="storeRFC">RFC</label>
+						<input type="text" name="storeRFC" id="storeRFC" class="form-control" placeholder="Introduzca RFC" [(ngModel)]="store.RFC">
+					</div>
+					<div class="form-group">
+						<label for="phoneNumber">Telefono</label>
+						<input type="number" name="phoneNumber" id="phoneNumber" class="form-control" placeholder="Introduzca telefono" [(ngModel)]="store.phoneNumber">
+					</div>
+					<div class="form-group">
+						<label for="direccionFisica">Direccion fisica</label>
+						<input type="text" name="direccionFisica" id="direccionFisica" class="form-control" placeholder="Introduzca direccion fisica" [(ngModel)]="store.direccionFisica">
+					</div>
+					<div class="form-group">
+						<label for="entidadFiscal">Tipo de entidad</label><br>
+						<label class="radio-inline"><input type="radio" name="entidadFiscal" [(ngModel)]="store.entidadFiscal" value="fisica">Fisica</label>     
+						<label class="radio-inline"><input type="radio" name="entidadFiscal" [(ngModel)]="store.entidadFiscal" value="moral">Moral</label>
+					</div>
+					<div class="form-group">
+						<label for="nombreFiscal">Nombre fiscal</label>
+						<input type="text" name="nombreFiscal" id="nombreFiscal" class="form-control" placeholder="Introduzca nombre fiscal" [(ngModel)]="store.nombreFiscal">
+					</div>
+					<div class="form-group">
+						<label for="createStoreDireccion">Direccion fiscal</label>
+						<input type="text" name="direccionFiscal" id="direccionFiscal" class="form-control" placeholder="Introduzca direccion fiscal" [(ngModel)]="store.direccionFiscal">
+					</div>
+				</div>
+				<button type="submit" class="btn btn-primary">Crear tienda</button>
+			</form>
+		</section>
+		<section class="container" *ngIf="storeService.userHasStore()">
+			<p class="h5 text-center">Informacion de tienda</p>
+			<div class="col-sm-6">
+				<table class="table" cellspacing="0" style="max-height: 28px">
+				  <tbody>
+				    <tr>
+				      <th scope="row">Nombre de tienda</th>
+				      <td>{{store.storeName}}</td>
+				    </tr>
+				    <tr>
+				      <th scope="row">Descripcion de tienda</th>
+				      <td>{{store.storeDescription}}</td>
+				    </tr>
+				    <tr>
+				      <th scope="row">RFC</th>
+				      <td>{{store.RFC}}</td>
+				    </tr>
+				    <tr>
+				      <th scope="row">Nombre fiscal</th>
+				      <td>{{store.nombreFiscal}}</td>
+				    </tr>
+				    <tr>
+				      <th scope="row">Direccion fiscal</th>
+				      <td>{{store.direccionFiscal}}</td>
+				    </tr>
+				    <tr>
+				      <th scope="row">Tipo entidad</th>
+				      <td>{{store.entidadFiscal}}</td>
+				    </tr>
+				    <tr>
+				      <th scope="row">Telefono</th>
+				      <td>{{store.phoneNumber}}</td>
+				    </tr>
+				    <tr>
+				      <th scope="row">Archivo .cert</th>
+				      <td>{{store.certFile}}</td>
+				    </tr>
+				    <tr>
+				      <th scope="row">Archivo .key</th>
+				      <td>{{store.keyFile}}</td>
+				    </tr>
+				  </tbody>
+				</table>
+			</div>			
+		</section>
+	</div>
 </section>
 <br>
 <br>

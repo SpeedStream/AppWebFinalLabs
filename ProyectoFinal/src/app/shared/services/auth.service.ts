@@ -22,7 +22,7 @@ export class AuthService {
     this.user.subscribe(user => {
      if (user) {
         this.userDetails = user;
-        console.log(" email : " + this.userDetails.email);
+        console.log("AuthService.constructor.email : " + this.userDetails.email);
         userService
           .isAdmin(this.userDetails.email)
           .snapshotChanges()
@@ -102,16 +102,31 @@ export class AuthService {
     return this.firebaseAuth.auth.signInWithEmailAndPassword(email, password);
   }
 
-  signInWithGoogle() {
-    return this.firebaseAuth.auth.signInWithPopup(
-      new firebase.auth.GoogleAuthProvider()
-    );
+  doGoogleLogin(){
+    return new Promise<any>((resolve, reject) => {
+      let provider = new firebase.auth.GoogleAuthProvider();
+      provider.addScope('profile');
+      provider.addScope('email');
+
+      this.firebaseAuth.auth.signInWithPopup(provider)
+        .then(res => {
+          resolve(res);
+        })
+    })
   }
 
   doFacebookLogin(){
-    return this.firebaseAuth.auth.signInWithPopup(
-      new firebase.auth.FacebookAuthProvider()
-    );
+    return new Promise<any>((resolve, reject) => {
+      let provider = new firebase.auth.FacebookAuthProvider();
+      
+      this.firebaseAuth.auth.signInWithPopup(provider)
+        .then(res => {
+          resolve(res);
+        }, err => {
+          console.log(err);
+          reject(err);
+      })
+    })
   }
 
 }
